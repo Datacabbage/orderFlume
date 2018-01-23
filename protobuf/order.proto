@@ -1,0 +1,10 @@
+syntax = "proto3";  //指定版本，必须要写（proto3、proto2）  
+package protobuf;
+
+
+//订单数据
+message Order_list{
+	string MsgId  =1;
+	int64  MsgType =2;
+     string Data =3;
+}
